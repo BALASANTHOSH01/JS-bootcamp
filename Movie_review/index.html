@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Info</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="search-bar">
+
+            <input type="search" name="search" id="search" placeholder="search movie" class="search">
+            <input type="button" value="search" placeholder="search" class="search-btn" id="search-btn" onclick="search()">
+
+        </div>
+
+        <div class="content">
+
+            <div class="text-info">
+    
+                <p class="title">Title: <span id="title"></span></p>
+                <p class="director">Director: <span id="director"></span></p>
+                <p class="actors">Actors: <span id="actors"></span></p>
+                <p class="genre">Genre: <span id="genre"></span></p>
+                <p class="box-office">Collection: <span id="box-office"></span></p>
+                <p class="released">Released on <span id="released"></span></p>
+                <p class="rating"><span id="rating" class="imdb-rating">0.0</span>⭐</p>
+    
+            </div>
+    
+            <img src="https://images.unsplash.com/photo-1616530940355-351fabd9524b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80" alt="" id="poster-img">
+
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
